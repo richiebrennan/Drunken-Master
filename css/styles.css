@@ -1,0 +1,628 @@
+html, body {
+	height:100%;
+}
+
+/*====================
+text-sizes
+=====================*/
+
+h1 {
+	font-family: 'Alegreya', serif;
+	
+}
+
+h4 {
+	font-family: 'Alegreya', serif;
+}
+
+p, li, h3, a {
+	font-family: 'Nunito', sans-serif;
+	font-size:18px;
+}
+
+hr {
+	 border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:link, a:visited, a:hover, a:active { color: #999}
+
+/*===================
+nav
+====================*/
+
+.opaque-navbar {
+	padding: 10px 0px;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: rgba(255, 255, 255, 0);
+	margin-bottom: 0;
+	transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+	background-color: rgba(56, 56, 56, 0.93);
+	transition: background-color .5 ease 0s;
+}
+
+.navbar-default .navbar-brand {
+	color:#FFF;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.navbar-default .navbar-brand:hover{
+    color:#FFCE2B;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color:#FFF;
+	font-size:16px;
+}
+
+.nav.navbar-nav li a:hover {
+	color:#FFCE2B;
+}
+
+
+
+/*====================
+jumbo
+====================*/
+
+.jumbotron {
+	background-image: url(../images/bar.jpg);
+	background-size:cover;
+	height: 75vh;
+	margin-bottom: 0;
+}
+
+.jumbotron h1 {
+	font-family: 'Kaushan Script', cursive;
+	color:#FFF;
+}
+
+.centered{
+   display: flex;
+  align-items: center; 
+}
+
+.jumbotron hr {
+	width: 200px;
+}
+
+@media (max-width: 480px) {
+    .jumbotron{
+        height: 100vh;
+    }
+}
+/*====================
+about
+====================*/
+#about {
+	background: url(../images/crossword.png);
+	padding: 25px 0px 100px 0px;
+}
+
+
+@media (max-width: 480px) {
+	#about {
+		padding:85px 8px 85px 8px;
+	}
+    #about p {
+		font-size: 18px;
+	}
+}
+
+
+#about h1 {
+	padding: 40px 0px 30px 0px;
+	margin-top:0px;
+}
+
+/*====================
+parallax elements
+====================*/
+
+#dividerone {
+	color:#FFF;
+	background-color: #222;
+	position: relative;
+	text-align: center;
+	padding: 180px 0;
+	z-index: 1;
+     min-height: 400px; 
+    background-attachment: fixed;
+	background-image:url(../images/divider-cock.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+}
+
+#dividertwo {
+	color:#FFF;
+	background-color: #222;
+	position: relative;
+	text-align: center;
+	padding: 180px 0;
+	z-index: 1;
+    min-height: 400px; 
+    background-attachment: fixed;
+	background-image:url(../images/divider-food.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+}
+
+/*====================
+menu
+====================*/
+
+#dishes {
+	background: url(../images/crossword.png);
+	padding: 35px 0px 35px 0px;
+}
+
+#dishes h1 {
+	padding:35px 0px 35px 0px;
+}
+
+@media (min-width:1200px) {
+	#dishes h1 {
+		font-size:50px;
+	}
+}
+
+#dish-items {
+	padding:55px 0px 55px 0px;
+}
+
+@media (max-width: 480px) {
+	#dish-items {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+.menu-title,
+.menu-price {
+	font-size: 16px;
+	margin: 0;
+	font
+}
+
+.menu-detail {
+	font-size: 14px;
+}
+
+
+.menu-price-detail {
+	position: relative;
+	text-align: right;
+}
+
+/*====================
+cocktails
+====================*/
+
+#cocktails {
+	background:url(../images/crossword.png);
+    padding: 35px 0px 35px 0px;
+}
+
+@media (min-width:1200px) {
+	#cocktails {
+		padding: 35px 0px 35px 0px;
+	}
+	
+	#cocktails h1 {
+		margin-top:0;
+		padding-top:0;
+		padding-bottom:0px;
+		font-size: 50px;
+	}
+}
+
+#cocktails-box {
+	padding-bottom:35px;
+}
+
+#cocktails h1 {
+	padding:10px 0px 45px 0px;
+}
+
+#cocktails p {
+	font-size:16px;
+	padding-bottom:20px;
+}
+
+.cocktail-image {
+	margin: 0 0 10px;
+}
+
+	
+
+.cocktail-menu {
+	border-bottom: 1px dotted #DDD;
+	padding:0 0 10px;
+	margin: 0 0 20px;
+}
+
+
+/*=========================
+gallery
+==========================*/
+.margin-0 {
+	margin: 0!important;
+}
+
+#gallery {
+	padding-right:0;
+	padding-left:0;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.side-image {
+	position: absolute;
+	background: #999;
+	padding: 30px;
+	height: 100%;
+	color: #000;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.vertical-body {
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	display: table;
+	height: 100%;
+	text-align: center;
+}
+
+.vertical {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	padding: 30px;
+}
+
+.gallery-no-padding {
+	background: #fff;
+}
+
+.gallery-no-padding > .row > .col-sm-3 {
+	padding: 0;
+}
+
+.gallery-detail {
+	border-bottom: 1px dotted #DDD;
+	text-align: center;
+	margin: 15px 0 20px;
+	padding: 0 0 10px;
+	padding-bottom:35px;
+}
+
+.gallery-title {
+	font-size: 16px;
+	margin: 0 0 5px;
+}
+
+#gallery-page {
+	padding-top:35px;
+}
+
+@media (max-width: 991px) {
+
+	.side-image {
+		position: relative;
+		height: auto;
+	}
+}
+
+.overlay {
+	position: relative;
+	margin: 0;
+}
+
+.overlay a {
+	position: absolute;
+	text-indent: 200%;
+	font-size: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 10;
+}
+
+.overlay img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.overlay figcaption {
+	background: rgba(0, 0, 0, .8);
+	position: absolute;
+	text-align: center;
+	padding: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		 -o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}
+
+.overlay .caption-inner {
+	position: absolute;
+	margin-top: -25px;
+	width: 100%;
+	top: 50%;
+	left: 0;
+}
+
+.overlay:hover figcaption {
+	opacity: 1;
+}
+
+.overlay:hover span,
+.overlay:hover .overlay-icon i{
+	-webkit-transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		 -o-transform: rotate(0deg);
+			transform: rotate(0deg);
+}
+
+.overlay-icon {
+	border: 2px solid #fff;
+	line-height: 48px;
+	font-size: 16px;
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	color: #fff;
+	-webkit-border-radius: 50px;
+	   -moz-border-radius: 50px;
+		 -o-border-radius: 50px;
+			border-radius: 50px;
+}
+
+.overlay-icon i,
+.overlay-icon span {
+	color: #F5D76E;
+	-webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		 -o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		 -o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}
+
+/*=========================
+Services
+==========================*/
+
+#services {
+	background: url(../images/crossword.png);
+}
+
+
+/*=========================
+footer
+==========================*/
+#footer {
+	background:#333;
+	color:#fff;
+	padding: 65px;
+}
+
+.number {
+	padding:15px;
+}
+
+@media screen and (max-width: 976px) {
+	.col-centered {
+		padding:10px;
+	}
+}
+
+.contact{
+    border-left: 2px solid #fff;
+}
+
+@media screen and (max-width: 976px) {
+	.contact {
+		text-align: center;
+        padding-top: 20px;
+        border-left: none;
+	}
+}
+
+/*========================
+Icons social
+========================*/
+
+ul.social-network {
+	list-style:none;
+	display:inline;
+	margin-left:0;
+	padding:0;
+}
+
+ul.social-network li {
+	display:inline;
+	margin:0 5px;
+}
+
+
+
+/*=======================
+social
+========================*/
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+
+.social-network a.icoInstagram:hover {
+	background-color:#FC3;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #696969;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle a {
+	background-color:#fff;
+}
+
+/*========================
+Icons
+========================*/
+
+.row-centered {
+	text-align:center;
+	padding:50px;
+}
+
+.col-centered {
+	display:inline-block;
+}
+
+
+/*======================
+button
+=======================*/
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+}
+
+/***********************
+  OUTLINE BUTTONS
+************************/
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #333;
+    color: #333;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #333;
+    border-color: #333;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #333;
+    color: #333;
+    box-shadow: none;
+}
+
+
